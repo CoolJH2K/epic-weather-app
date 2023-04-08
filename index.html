@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+        <!-- This will display the current date, temperature, wind speed, and humidity for the user's city -->
+        <main>
+            <!-- This will show the weather for the city the user lives in -->
+            <h2 id="city-and-date"></h2>
+        </main>
+        <!-- This will be used for whenever the user wants to check the weather for a specific city -->
+        <aside class="search">
+            <h2>Search for a City:</h2>
+            <div class="city-search">
+                <!-- Set the class for the search bar and search button -->
+                <input id="search-bar" type="text" placeholder="San Diego">
+                <input id="search-button" type="submit" value="Search">
+            </div>
+            <div class="recent-cities">
+                <!-- These locations for these eight buttons are predefined and will let you check the weather for each of these cities -->
+                <button class="city-button">Orlando, FL</button>
+                <button class="city-button">Atlanta, GA</button>
+                <button class="city-button">New York City, NY</button>
+                <button class="city-button">Chicago, IL</button>
+                <button class="city-button">Nashville, TN</button>
+                <button class="city-button">Phoenix, AZ</button>
+                <button class="city-button">Portland, OR</button>
+                <button class="city-button">Las Vegas, NV</button>
+            </div>
+        </aside>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+/* Set universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Header must have gradient */
+header {
+    background: linear-gradient(90deg, rgb(70, 90, 184) 30%, rgb(38, 19, 96) 100%);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0.01em;
+    text-align: center;
+}
+
+/* Big card just below the header will be a box */
+
+.search {
+    font-family: sans-serif;
+}
+
+.city-search {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#search-bar {
+    margin: 2ch;
+    padding: 1vh;
+    width: 300px;
+}
+
+#search-button {
+    background-color: rgb(105, 145, 227);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 2ch;
+    padding: 1vh;
+    width: 300px;
+}
+
+/* Stylize the city buttons */
+.city-button {
+    background-color: rgb(174, 174, 174);
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2ch;
+    padding: 1vh;
+    width: 300px;
+}
+
+/* Use flexbox for the 5-day forecast */
