@@ -13,6 +13,6 @@ async function fetchKey() {
 
 // Write a funciton that lets the search bar know where a city's coordinates are
 
-// Write a function calling for the location of the cit when the Search button is pressed
+// Write a function calling for the location of the city when the Search button is pressed
 
 // Write a function calling for a specific city
