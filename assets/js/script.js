@@ -20,7 +20,7 @@ $("#current-date").text(currentTime);
 
 // Write a funciton that locates a city's coordinates
 function cityCoordinates() {
-    fetch($("https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=c5a5e3e368e07a9374e3e5a74d4241a6"));
+    
 }
 
 // Function for the coordinates of the predefined buttons
