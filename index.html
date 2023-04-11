@@ -17,29 +17,29 @@
             <div class="city-search">
                 <!-- Set the class for the search bar and search button -->
                 <input id="search-bar" type="text" placeholder="San Diego">
-                <input id="search-button" type="submit" value="Search">
+                <button id="search-button" type="submit" value="Search">Search</button>
             </div>
             <div class="recent-cities">
                 <!-- These locations for these eight buttons are predefined and will let you check the weather for each of these cities -->
-                <button class="city-button">Atlanta, GA</button>
-                <button class="city-button">Denver, CO</button>
-                <button class="city-button">Seattle, WA</button>
-                <button class="city-button">San Francisco, CA</button>
-                <button class="city-button">Orlando, FL</button>
-                <button class="city-button">New York City, NY</button>
-                <button class="city-button">Chicago, IL</button>
-                <button class="city-button">Autsin, TX</button>
+                <button class="city-button" id="atlanta">Atlanta, GA</button>
+                <button class="city-button" id="denver">Denver, CO</button>
+                <button class="city-button" id="seattle">Seattle, WA</button>
+                <button class="city-button" id="san-fran">San Francisco, CA</button>
+                <button class="city-button" id="orlando">Orlando, FL</button>
+                <button class="city-button" id="new-york-city">New York City, NY</button>
+                <button class="city-button" id="chicago">Chicago, IL</button>
+                <button class="city-button" id="austin">Autsin, TX</button>
             </div>
         </aside>
         <!-- This will display the current date, temperature, wind speed, and humidity for the user's city -->
         <section class="city-and-date">
             <!-- This will show the weather for the city the user lives in -->
-            <h2></h2>
+            <h2 id="five-day"></h2>
             <h3 id="current-date">
                 <ul>
-                    <li>Temp: </li>
-                    <li>Wind: </li>
-                    <li>Humidity: </li>
+                    <li id="top-temperature">Temp: </li>
+                    <li id="top-wind-speed">Wind: </li>
+                    <li id="top-humidity">Humidity: </li>
                 </ul>
             </h3>
         </section>
@@ -49,9 +49,9 @@
                 <figure>
                     <h3 class="future-date"></h3>
                     <ul>
-                        <li>Temp: </li>
-                        <li>Wind: </li>
-                        <li>Humidity: </li>
+                        <li class="temperature">Temp: </li>
+                        <li class="wind-speed">Wind: </li>
+                        <li class="humidity">Humidity: </li>
                     </ul>
                 </figure>
             </div>
@@ -59,9 +59,9 @@
                 <figure>
                     <h3 class="future-date"></h3>
                     <ul>
-                        <li>Temp: </li>
-                        <li>Wind: </li>
-                        <li>Humidity: </li>
+                        <li class="temperature">Temp: </li>
+                        <li class="wind-speed">Wind: </li>
+                        <li class="humidity">Humidity: </li>
                     </ul>
                 </figure>
             </div>
@@ -69,9 +69,9 @@
                 <figure>
                     <h3 class="future-date"></h3>
                     <ul>
-                        <li>Temp: </li>
-                        <li>Wind: </li>
-                        <li>Humidity: </li>
+                        <li class="temperature">Temp: </li>
+                        <li class="wind-speed">Wind: </li>
+                        <li class="humidity">Humidity: </li>
                     </ul>
                 </figure>
             </div>
@@ -79,9 +79,9 @@
                 <figure>
                     <h3 class="future-date"></h3>
                     <ul>
-                        <li>Temp: </li>
-                        <li>Wind: </li>
-                        <li>Humidity: </li>
+                        <li class="temperature">Temp: </li>
+                        <li class="wind-speed">Wind: </li>
+                        <li class="humidity">Humidity: </li>
                     </ul>
                 </figure>
             </div>
@@ -89,14 +89,15 @@
                 <figure>
                     <h3 class="future-date"></h3>
                     <ul>
-                        <li>Temp: </li>
-                        <li>Wind: </li>
-                        <li>Humidity: </li>
+                        <li class="temperature">Temp: </li>
+                        <li class="wind-speed">Wind: </li>
+                        <li class="humidity">Humidity: </li>
                     </ul>
                 </figure>
             </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js" integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+        <!-- Thought using jQuery would help with JavaScript programming -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="./assets/js/script.js"></script>
     </body>
